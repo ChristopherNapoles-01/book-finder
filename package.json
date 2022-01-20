@@ -18,6 +18,8 @@
     "react-paginate": "^8.1.0",
     "react-router-dom": "^6.2.1",
     "react-scripts": "5.0.0",
+    "react-test-render": "^1.1.2",
+    "react-test-renderer": "^18.0.0-rc.0-next-05a55a4b0-20220119",
     "use-debounce": "^7.0.1",
     "web-vitals": "^2.1.3"
   },
