@@ -6,7 +6,7 @@ const Header = () => {
                 <h1>Book Worm Library</h1>
             </div>
             <nav>
-                <Link to={'/'}>
+                <Link to={'/book-finder'}>
                     <p className="home">Home</p>
                 </Link>
                 <Link to={'/AboutUs'}>
