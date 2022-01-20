@@ -24,7 +24,7 @@ const BookDetails = () => {
            {error&&<div>{error}</div>}
            {details&&(
                <div className="d-flex justify-content-center">
-                    <div className="col-sm-12 col-lg-12 col-md-12 bookContainer cont shadow p-3 mb-5 bg-body rounded">
+                    <div className="bookContainer cont shadow p-3 mb-5 bg-body rounded">
                             <div className="text-center">
                                 <p className="homeTitle">{details.volumeInfo.title}</p>
                                 {details.volumeInfo.imageLinks?<img className="homeThumbnails" src={details.volumeInfo.imageLinks.thumbnail} alt={details.volumeInfo.title}></img>

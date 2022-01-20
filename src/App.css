@@ -30,13 +30,13 @@ a:hover{
     width: 100%;
 }
 .cont{
-   width:97%;
-   margin: 20px;  
+   width:100%;
+   margin-top: 20px; 
 }
 .searchBarContainer{
     margin-bottom:10px ;
-    border: black 1px solid;
-    width: 250px;
+    border: black 1.5px solid;
+    min-width: 200px;
     height: 40px;
     border-radius:3px ;
     padding-left:3px;
@@ -44,8 +44,8 @@ a:hover{
 
 }
 .icon{
-    display: inline;
-    right: 10px;
+    display: inline-block;
+    
 }
 #searchBar{
     height: 30px;
@@ -61,7 +61,7 @@ a:hover{
 }
 .searchResults{
     min-height: 40px;
-    max-height: 200px;
+    max-height: 300px;
     padding: 10px;
     overflow-y:scroll;
     border-radius: 2px;
@@ -93,8 +93,8 @@ a:hover{
     border: black 1px solid;
 }
 .homeThumbnails{
-    height: 300px;
-    width: 300px;
+    height: 40%;
+    width: 40%;
 }
 .none{
     height: 50px;
@@ -109,11 +109,14 @@ a:hover{
     color: #0CAFFF;
 }
 .bookContainer{
-    min-width: 40%;
-    max-width: 80%;
+    min-width: 80%;
+    max-width: 85%;
     min-height: 500px;
     max-height: 80%;
     padding: 20px;
+}
+.paging{
+    width: 95%;
 }
 .page-item{
     cursor: pointer;

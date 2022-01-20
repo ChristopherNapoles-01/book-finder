@@ -23,7 +23,7 @@ const Home = () =>{
             <Search/>
             {isPending&&<div>Loading...</div>}
             {error&&<div>{error}</div>}
-           
+            
             {data&&result.map((e) => (
                 <div key = {e.id} className="cont shadow p-3 mb-5 bg-body rounded">
                     <div className="content linkWrapper">
@@ -44,7 +44,8 @@ const Home = () =>{
                 previousLabel={'previous'}
                 nextLabel={'next'}
                 pageCount={8}
-                containerClassName={'pagination d-flex justify-content-center'}
+                containerClassName={'pagination d-flex justify-content-center paging'}
+                breakClassName={'page-item'}
                 pageClassName={'page-item'}
                 pageLinkClassName={'page-link'}
                 previousClassName={'page-item'}
